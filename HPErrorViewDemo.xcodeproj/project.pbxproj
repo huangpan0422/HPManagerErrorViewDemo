@@ -15,6 +15,9 @@
 		15A28D571E27336A00CBA0C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A28D551E27336A00CBA0C0 /* LaunchScreen.storyboard */; };
 		15A28D621E27336A00CBA0C0 /* HPErrorViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A28D611E27336A00CBA0C0 /* HPErrorViewDemoTests.m */; };
 		15A28D6D1E27336A00CBA0C0 /* HPErrorViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A28D6C1E27336A00CBA0C0 /* HPErrorViewDemoUITests.m */; };
+		15A28D7C1E27339500CBA0C0 /* HPErrorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A28D7B1E27339500CBA0C0 /* HPErrorView.m */; };
+		15A28D821E274D9200CBA0C0 /* UIViewController+HPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A28D811E274D9200CBA0C0 /* UIViewController+HPAdd.m */; };
+		15A28D851E2753E000CBA0C0 /* UITableView+HPAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A28D841E2753E000CBA0C0 /* UITableView+HPAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		15A28D681E27336A00CBA0C0 /* HPErrorViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HPErrorViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A28D6C1E27336A00CBA0C0 /* HPErrorViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPErrorViewDemoUITests.m; sourceTree = "<group>"; };
 		15A28D6E1E27336A00CBA0C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A28D7A1E27339500CBA0C0 /* HPErrorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPErrorView.h; sourceTree = "<group>"; };
+		15A28D7B1E27339500CBA0C0 /* HPErrorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPErrorView.m; sourceTree = "<group>"; };
+		15A28D801E274D9200CBA0C0 /* UIViewController+HPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HPAdd.h"; sourceTree = "<group>"; };
+		15A28D811E274D9200CBA0C0 /* UIViewController+HPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HPAdd.m"; sourceTree = "<group>"; };
+		15A28D831E2753E000CBA0C0 /* UITableView+HPAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HPAdd.h"; sourceTree = "<group>"; };
+		15A28D841E2753E000CBA0C0 /* UITableView+HPAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HPAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				15A28D4B1E27336A00CBA0C0 /* AppDelegate.m */,
 				15A28D4D1E27336A00CBA0C0 /* ViewController.h */,
 				15A28D4E1E27336A00CBA0C0 /* ViewController.m */,
+				15A28D801E274D9200CBA0C0 /* UIViewController+HPAdd.h */,
+				15A28D811E274D9200CBA0C0 /* UIViewController+HPAdd.m */,
+				15A28D7A1E27339500CBA0C0 /* HPErrorView.h */,
+				15A28D7B1E27339500CBA0C0 /* HPErrorView.m */,
+				15A28D831E2753E000CBA0C0 /* UITableView+HPAdd.h */,
+				15A28D841E2753E000CBA0C0 /* UITableView+HPAdd.m */,
 				15A28D501E27336A00CBA0C0 /* Main.storyboard */,
 				15A28D531E27336A00CBA0C0 /* Assets.xcassets */,
 				15A28D551E27336A00CBA0C0 /* LaunchScreen.storyboard */,
@@ -274,7 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A28D4F1E27336A00CBA0C0 /* ViewController.m in Sources */,
+				15A28D7C1E27339500CBA0C0 /* HPErrorView.m in Sources */,
 				15A28D4C1E27336A00CBA0C0 /* AppDelegate.m in Sources */,
+				15A28D851E2753E000CBA0C0 /* UITableView+HPAdd.m in Sources */,
+				15A28D821E274D9200CBA0C0 /* UIViewController+HPAdd.m in Sources */,
 				15A28D491E27336A00CBA0C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
